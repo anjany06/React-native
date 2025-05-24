@@ -5,7 +5,7 @@ const RootLayout = () => {
   return (
     <Stack>
       <Stack.Screen
-        name="(tab)"
+        name="(drawer)"
         options={{
           headerShown: false,
         }}
