@@ -1,3 +1,4 @@
+import { Link } from "expo-router";
 import { Text, View } from "react-native";
 
 const Index = () => {
@@ -20,6 +21,8 @@ const Index = () => {
       >
         hello world
       </Text>
+
+      <Link href="/about">about</Link>
     </View>
   );
 };
